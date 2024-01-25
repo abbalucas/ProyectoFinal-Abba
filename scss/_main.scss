@@ -1,0 +1,22 @@
+.tituloDePagina {
+    text-align: center;
+    font-size: 70px;
+    margin: 50px;
+    text-decoration-line: underline;
+}
+h2 {
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+.card {
+    margin: 20px;
+    padding: 20px;
+    @include anclas;
+    background-color: burlywood;
+    cursor: pointer;
+  }
+  
+  .card-img-top {
+    height: 250px;
+  }
