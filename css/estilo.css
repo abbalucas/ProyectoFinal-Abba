@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  background-color: burlywood;
+  background: linear-gradient(to right top, #E67E22, #EB984E, #F0B27A, #EDBB99);
   border: 5px black solid;
 }
 
@@ -23,13 +23,14 @@ nav ul li {
   display: inline;
   border: 5px black solid;
   border-radius: 30px;
-  background-color: #EDBB99;
+  background: linear-gradient(to right top, #E67E22, #EB984E, #F0B27A, #EDBB99);
   margin: 5px;
   padding: 3px;
   cursor: pointer;
+  transition: all 1s;
 }
 nav ul li:hover {
-  font-size: 25px;
+  font-size: 30px;
 }
 
 a {
@@ -45,7 +46,7 @@ a {
 
 .tituloDePagina {
   text-align: center;
-  font-size: 70px;
+  font-size: 60px;
   margin: 50px;
   text-decoration-line: underline;
 }
@@ -60,8 +61,14 @@ h2 {
   margin: 20px;
   padding: 20px;
   border: 5px black solid;
-  background-color: burlywood;
+  background: linear-gradient(to right top, #E67E22, #EB984E, #F0B27A, #EDBB99);
   cursor: pointer;
+  transition: all 1s;
+}
+
+.card:hover {
+  transform: rotate(360deg) scale(1.1);
+  
 }
 
 .card-img-top {
@@ -71,7 +78,7 @@ h2 {
 footer {
   margin-top: 5px;
   border-top: 5px black solid;
-  background: burlywood;
+  background: linear-gradient(to right top, #E67E22, #EB984E, #F0B27A, #EDBB99);
 }
 
 h3 {
@@ -81,7 +88,7 @@ h3 {
 .formularioContacto {
   margin-top: 20px;
   margin: 10px;
-  background-color: burlywood;
+  background: linear-gradient(to right top, #E67E22, #EB984E, #F0B27A, #EDBB99);
   border: 5px black solid;
 }
 
@@ -104,7 +111,7 @@ input [type=text], textarea {
 }
 
 .botones {
-  background-color: #EDBB99;
+  background: linear-gradient(to right top, #E67E22, #EB984E, #F0B27A, #EDBB99);
   color: black;
   border: 5px black solid;
   padding: 10px 20px;
@@ -113,6 +120,7 @@ input [type=text], textarea {
   cursor: pointer;
   margin-bottom: 20px;
   margin-left: 10px;
+  transition: all 1s;
 }
 .botones:hover {
   font-size: 25px;
@@ -122,7 +130,7 @@ input [type=text], textarea {
   text-align: left;
   border: 5px black solid;
   border-radius: 10px;
-  background-color: burlywood;
+  background: linear-gradient(to right top, #E67E22, #EB984E, #F0B27A, #EDBB99);
   font-size: 20px;
   margin: 30px;
 }
@@ -133,11 +141,14 @@ input [type=text], textarea {
   height: 61vh;
   width: 61vh;
   border: 5px black solid;
-  border-radius: 5px;
+  border-radius: 10px;
+  padding: 15px;
+  background: linear-gradient(to right top, #E67E22, #EB984E, #F0B27A, #EDBB99);
 }
 .slide img {
-  height: 60vh;
-  width: 60vh;
+  height: 56vh;
+  width: 56vh;
+  border-radius: 1vh;
 }
 
 /*# sourceMappingURL=estilo.css.map */

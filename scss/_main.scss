@@ -13,9 +13,15 @@ h2 {
     margin: 20px;
     padding: 20px;
     @include anclas;
-    background-color: burlywood;
+    background: linear-gradient(to right top, #E67E22, #EB984E, #F0B27A, #EDBB99);
     cursor: pointer;
   }
+
+.card:hover {
+    transform: rotate(360deg) scale(1.1);
+    
+    
+  }  
   
   .card-img-top {
     height: 250px;
